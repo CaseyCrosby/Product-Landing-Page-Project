@@ -30,7 +30,18 @@ body {
     color: black;
 }
 
+#motorcycles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+#motorcycles img {
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 500px;
+}
 
 main {
   padding-top: 300px;
