@@ -101,3 +101,33 @@ main {
     font-size: larger;
     border-radius: 10px;
 }
+
+footer {
+    background-color: #ddd;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul li {
+    padding: 0 10px;
+    list-style: none;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer span {
+margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2em;
+  color: #444;
+}
+
