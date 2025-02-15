@@ -28,17 +28,41 @@ body {
 
 #nav-bar ul li {
     margin: 8px auto;
+   
 }
 
 #nav-bar a {
     text-decoration: none;
     color: black;
+  
 }
 
 #nav-bar a:hover {
     font-weight: 600;
     text-decoration:underline;
 
+}
+
+#hero {
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 200px;
+    max-width: 600px;
+    background-color: #dddddd;
+    border-radius: 10px;
+    padding: 30px;
+    -webkit-box-shadow: inset 0px 0px 33px 21px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 33px 21px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 33px 21px rgba(0,0,0,0.75);
+}
+
+#hero h2 {
+    font-size: 2.3em;
+}
+
+#hero p {
+    padding: 20px 50px;
+    font-size: 1.3em;
 }
 
 #motorcycles {
@@ -52,10 +76,13 @@ body {
     border-radius: 10px;
     margin: 40px auto;
     width: 600px;
+    -webkit-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
 }
 
 main {
-  padding-top: 300px;
+  
 }
 
 
@@ -68,23 +95,26 @@ main {
     width: 100%;
     margin: 50px auto;
     border-radius: 10px;
-
+    -webkit-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
 }
 
 #form {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 250px auto;
+    margin: 200px auto;
     flex-direction:column;
 
 }
 
 #call-to-action {
-    margin: 30px;
+    margin: auto 40px 20px;
     text-align: center;
     font-size: x-large;
     line-height: 1.2;
+    width: 600px;
 }
 
 #email {
@@ -97,7 +127,7 @@ main {
 #submit {
     width: 150px;
     height: 30px;
-    margin: 10px auto;
+    margin: 20px auto;
     font-size: larger;
     border-radius: 10px;
 }
@@ -131,3 +161,15 @@ margin-top: 5px;
   color: #444;
 }
 
+@media (min-width: 750px) {
+    #nav-bar ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 750px) {
+    #nav-bar li {
+        padding: 7px;
+    }
+}
